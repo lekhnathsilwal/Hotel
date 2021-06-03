@@ -1,0 +1,269 @@
+*{
+	margin:0 auto;
+}
+
+a{
+	cursor:pointer;
+	}
+
+body{
+	height:auto;
+background-color:#ccc;
+background:-webkit-linear-gradient(top,skyblue 5%, gray 80%);
+background:-moz-linear-gradient(top,skyblue 5%, gray 80%);
+background:-o-linear-gradient(top,skyblue 5%, gray 80%);
+}
+
+#header{
+	position:relative;
+	height:150px;
+	width:1080px;
+	background-image:url(../images/headerfoto.png);
+	}
+#header a img{
+	position:absolute;
+	top:-50px;
+}
+/*navigation.php*/
+#nav{
+	position:relative;
+	height:40px;
+	width:1080px;
+	background-color:orange;
+	background:-webkit-linear-gradient(bottom,orange 3%, gray 80%);
+	background:-moz-linear-gradient(bottom,orange 3%, gray 80%);
+	background:-o-linear-gradient(bottom,orange 3%, gray 80%);
+}
+
+/*for signup*/
+#sign-up{
+	position:absolute;
+	top:110px;
+	right:20px;
+}
+#sign-up li {
+	line-height:40px;
+	display:inline;
+	list-style:none;
+}
+
+#nav #signup li input[type=submit]{
+	height:28px;
+	width:80px;
+	background-color:skyblue;
+	background:-webkit-linear-gradient(bottom,orange 15%, gray 90%);
+	background:-o-linear-gradient(bottom,orange 15%, gray 90%);
+	background:-moz-linear-gradient(bottom,orange 15%, gray 90%);
+	border:2px solid white;
+	box-shadow:3px 3px 3px gray;
+	color:white;
+}
+#nav #signup li input[type=submit]:focus{
+color:gray;
+outline:none;
+}
+
+	/*for menu bar*/
+#nav ul li{
+	display:inline-block;
+	list-style:none;
+}
+#nav ul li a{
+	text-decoration:none;
+	padding:0px 40px;
+	line-height:40px;
+	color:white;
+	font-size:18px;
+	text-transform:capitalize;
+	border-right:white solid;
+
+}
+#nav ul li a:hover{
+	color:white;
+	display:block;
+	background:gray;
+	height:40px;
+	font-weight:bold;
+}
+
+#nav ol{
+	position:absolute;
+	top:0px;
+	right:20px;
+	list-style:none;
+	line-height:40px;
+	color:white;
+	font-size:12px;
+	text-transform:capitalize;
+}
+#nav ol li{
+	display:inline;
+}
+#nav ol li a{
+	color:white;
+	font-size:15px;
+	border-radius:15px;
+	text-decoration:none;
+	background-color:skyblue;
+	background:-webkit-linear-gradient(bottom,orange 15%, gray 90%);
+	background:-o-linear-gradient(bottom,orange 15%, gray 90%);
+	background:-moz-linear-gradient(bottom,orange 15%, gray 90%);
+	box-shadow:3px 3px 3px gray;
+	padding:3px 5px;
+	border:2px solid #ccc;
+}
+#sign-up ol{
+	top:30px;
+	right:5px;
+	list-style:none;
+	line-height:40px;
+	color:white;
+	font-size:12px;
+	text-transform:capitalize;
+}
+#sign-up ol li{
+	display:inline;
+}
+#sign-up a li{
+	color:white;
+	font-size:15px;
+	border-radius:15px;
+	text-decoration:none;
+	background-color:skyblue;
+	background:-webkit-linear-gradient(bottom,orange 15%, gray 90%);
+	background:-o-linear-gradient(bottom,orange 15%, gray 90%);
+	background:-moz-linear-gradient(bottom,orange 15%, gray 90%);
+	box-shadow:3px 3px 3px gray;
+	padding:3px 5px;
+	border:2px solid #ccc;
+}
+#nav ol li a:hover{
+	color:white;
+	background:gray;
+}
+#sign-up a li:hover{
+	color:white;
+	background:gray;
+
+}
+
+/*banner.php*/
+#sliding_banner{
+	height:515px;
+	width:1080px;
+}
+
+/*content.php*/
+#content{
+	position:relative;
+	height:500px;
+	width:1078px;
+	background-color:#666;
+	border:1px solid gray;
+}
+
+#content #content1{
+	float:left;
+	margin:15px;
+	height:475px;
+	width:650px;
+	background-color:#eee;
+	border-radius:20px;
+}
+#content #content1 img{
+	height:230px;
+	width:640px;
+	border-radius:20px;
+	padding-left:5px;
+}
+#content #content1 h1{
+	color:#666;
+	font-size:28px;
+	padding-top:10px;
+	padding-left:10px;
+	border-bottom:2px double #ccc;
+}
+#content #content1 p{
+	color:#666;
+	font-size:16px;
+	padding:20px;
+	text-align:justify;
+}
+#content #content2{
+	position:absolute;
+	right:0px;
+	height:290px;
+	width:390px;
+	background-color:#eee;
+	margin:10px;
+	margin-top:15px;
+	border-radius:20px;
+}
+#content #content2 h1{
+	text-align:center;
+	color:#666;
+	border-bottom:2px solid #ccc;
+	text-transform:capitalize;
+
+}
+#content #content2 ul{
+	position:absolute;
+	left:15px;
+}
+
+#content #content2 ul li{
+	text-align:center;
+	text-transform:capitalize;
+	list-style-type: none;
+	padding-top:10px;
+	font-size:19px;
+	border-bottom:3px solid #999;
+	width:280px;
+	transition:all 1s;
+}
+#content #content2 ul a{
+	color:#333;
+	text-decoration:none;
+}
+#content #content2 ul li:hover{
+	border-bottom:4px solid #333;
+	border-top:4px solid #333;
+	width:180px;
+	background-color:#999;
+	transition:all 0.5s;
+
+}
+
+#content #content3{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	height:175px;
+	width:390px;
+	background-color:#eee;
+	margin:10px;
+	border-radius:20px;
+}
+#content #content3{/*adding gradient */
+color:#ccc;
+}
+
+
+#footer{
+	height:80px;
+	width:1080px;
+	background-image:url(../images/cover1_04.png);
+	color:white;
+	text-align:center;;
+	clear:both;
+}
+
+#footer h2,h3{
+	font-size:16px;
+}
+/*for gallary.php*/
+#gallary{
+	height:600px;
+	width:1080px;
+	border-top: 10px solid blue;
+}

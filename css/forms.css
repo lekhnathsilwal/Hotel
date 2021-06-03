@@ -1,0 +1,61 @@
+*{
+	margin:0px auto;
+}
+body{
+	height:758px !important;
+	background:-webkit-linear-gradient(top,rgba(87,54,30,0.6) 37%, blue 77%);
+	background:-moz-linear-gradient(top,rgba(87,54,30,0.6) 37%, blue 77%);
+	background:-o-linear-gradient(top,rgba(87,54,30,0.6) 37%, blue 77%);
+}
+fieldset{
+	width:1000px;
+	height:560px;
+	color:white;
+	line-height:40px;
+	border:5px solid gray;
+	background:rgba(240,200,105,0.6);
+	font-size:18px;
+	font-weight:bold;
+}
+#signin_form{
+	background:url(../images/banner/4s4.jpg);
+	height:600px;
+	width:1080px;
+	border:none;
+}
+form td{
+	font-size:20px;
+}
+fieldset input[type=text],input[type=password],option,select,input[type=radio]{
+	text-align:center;
+	background-color:lightblue;
+	border-radius:15px;
+	padding:5px;
+	color:black;
+	font-size:15px;
+	outline:none;
+}
+fieldset input[type=text],input[type=password],input[type=radio]:focus{
+	outline:none;
+}
+fieldset input[type=submit]{
+	font-size:15px;
+	float:left;
+	height:35px;
+	width:70px;
+	color:black;
+	border-radius:15px;
+	background-color:skyblue;
+}
+fieldset input[type=submit]:hover{
+	color:white;
+	background:black;
+	font-size:17px;
+	height:40px;
+	width:75px;
+ }
+
+ input[type=submit]:focus{
+	outline:none;
+ }
+

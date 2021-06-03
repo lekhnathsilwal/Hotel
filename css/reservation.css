@@ -1,0 +1,73 @@
+/* for reservation_form.php */
+body{
+	height:auto !important;
+}
+
+.hotel fieldset{
+	position:relative;
+	width:1046px;
+	height:470px;
+	color:white;
+	line-height:40px;
+	border:5px solid gray;
+	border-radius:1000px;
+	background:rgba(240,200,105,0.6);
+	font-size:18px;
+	font-weight:bold;
+}
+.hotel{
+	background:url(../images/banner/Beautiful-accent-wall-colorful-art-living-room.jpg);
+	height:500px;
+	width:1080px;
+	border:none;
+}
+.hotel fieldset h1{
+	text-align:center;
+	color:blue;
+	background:rgba(240,200,105,0.8);
+	text-transform:capitalize;
+}
+.hotel fieldset select{	
+outline:none;	
+border-radius:20px;
+height:50px;
+width:200px;
+padding-left:40px;
+font-weight:bolder;
+font-size:16px;
+text-transform:capitalize;
+}
+
+.hotel fieldset p,span{
+	padding:20px;
+	font-size:24px;
+	text-transform:capitalize;
+}
+
+.hotel fieldset p input[type=submit]{
+	position:absolute;
+	top:430px;
+	left:210px;
+	height:50px;
+	width:650px;
+	color:#fff;
+	font-size:18px;
+	outline:none;
+	border-radius:20px;
+	background-color:skyblue;
+	background:-webkit-radial-gradient(top left,skyblue 5%,orange 85%);
+	box-shadow:-0px 2px 5px gray;
+}
+.hotel fieldset p input[type=submit]:hover{
+	color:skyblue;
+	transition:all 3s;
+}
+.hotel fieldset input[type=date]{
+outline:none;	
+border-radius:20px;
+height:50px;
+width:200px;
+text-align:center;
+font-weight:bolder;
+font-size:16px;
+}

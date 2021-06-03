@@ -1,0 +1,172 @@
+*{
+	margin:0 auto;
+}
+
+body{
+	background-color:black;
+}
+#wrapper{
+	height:auto;
+	width:1080px;
+	background:#333;
+}
+#header{
+	position:relative;
+	height:100px;
+	width:1080px;
+	background-color:#222;
+}
+#header h1{
+	position:relative;
+	left:340px;
+	line-height: 100px;
+	color:white;
+	text-transform: capitalize;
+}
+#header1{
+	position:relative;
+	height:200px;
+	width:1080px;
+	background-color:#222;
+}
+#header1 h1{
+	position:relative;
+	right:50px;
+	line-height: 100px;
+	color:white;
+	text-transform: capitalize;
+}
+#nav{
+	height:50px;
+	background-color: #666;
+	border-bottom: 5px solid #111;
+}
+#nav ul li{
+	width: 60px;
+	margin-top: 5px;
+	display: inline-block;
+	height:20px;
+	background-color: #222;
+	padding:10px 75px;
+	transition:all 3s;
+}
+#nav ul{
+	-webkit-padding-start: 7px;
+}
+#nav ul li:hover{
+	background-color: #666;
+	text-align: center;
+	transition:all 3s;
+}
+#nav ul a{
+	line-height: 20px;
+	text-align: center;
+	width:200px;
+	color:white;
+	text-transform: capitalize;
+	text-decoration: none;
+	transition:all 3s;
+}
+#nav ul li a:hover{
+	color:blue;
+	transition:all 3s;
+}
+#container{
+	position:relative;
+	height:auto;
+	width:1080px;
+	background:#666;
+} 
+#container h1{
+	padding:20px;
+}
+#container h2{
+	padding-top:10px;
+	color:red;
+	text-align: center;
+}
+#container fieldset{
+	color:#fff;
+	position:absolute;
+	top:50px;
+	left:150px;
+	border-color:5px solid white;
+	box-shadow: 10px 10px 10px #ccc, -10px -10px 10px #ccc;
+	height:230px;
+	width:450px;
+	background:-webkit-linear-gradient(left,#333 50%, #666 98%);
+}
+#container input[type=text],input[type=password]{
+	height:30px;
+	width:320px;
+	line-height: 30px;
+    text-align: center;
+}
+#container input[type=submit]{
+	position:absolute;
+    right:40px;
+    bottom:20px;
+	width:50px;
+	height:30px;
+}
+#container input[type=submit]:hover{
+	background:#111;
+	color:#fff;
+}
+#container a{
+	color:red;
+	position:absolute;
+	right:40px;
+	bottom:10px;
+}
+
+/*insert into tables*/
+#insert{
+	border-top:5px solid #fff;
+	height:auto;
+	width:1080px;
+	background:#ccc;
+}
+#insert1{
+	float:left;
+	height:auto;
+	width:290px;
+	background:#222;
+}
+#insert1 ol li a{
+	color:red;
+}
+#insert1 ul li{
+	list-style:none;
+	height:75px;
+	line-height: 75px;
+	text-align: center;
+	margin-right: 35px;
+	transition:all 0.2s;
+	
+}
+#insert1 ul a{
+	text-transform: capitalize;
+	text-decoration: none;
+	color:white;
+	display:block;
+}
+#insert1 ul li:hover{
+	background:red;
+	transition:all 2.4s;
+}
+#insert2{
+	float:right;
+	background:#ccc;
+	height:auto;
+	width:785px;
+	border-right: 5px solid #fff;
+}
+#admin_form table tr label{
+    color:white;
+}
+#header img{
+	height: 100px;
+	width: 200px;
+	float: left;
+}
